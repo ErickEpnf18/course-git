@@ -25,3 +25,5 @@ git branch
 git branch -b first_rama
 git branch -m second_rama
 git checkout master
+ubicar que la rama master apunte a otro commit:
+git merge second_rama
