@@ -1,4 +1,0 @@
-git config --global user.name ErickEpnf18
-git config --global user.email aguilakrakatoa@gmail.com
-permite ver el historial:
-git log -p 
