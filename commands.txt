@@ -33,5 +33,5 @@ git merge second_rama
 git branch -d second_rama --> delete branch
 
 CONFLICTS BRANCHS
-conflicts
+añadido por rama4
 
