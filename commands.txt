@@ -1,17 +1,22 @@
 git config --global user.name ErickEpnf18
 git config --global user.email aguilakrakatoa@gmail.com
 permite ver el historial de commits de projects:
-git log -p 
+git log -p ==> git log --oneline
 ver el archivo de texto: 
 cat document.txt
 
-para sacarlo del proximo commit:
-git reset head document.txt
+para sacarlo del ínidice(util cuando pones git add . y sacas un archivo que no quieres):
+git reset HEAD document.txt
+
+devolver los cambios para el ultimo commit:
+git checkout -- document.txt    
 
 muestra cambios que no estan en el índice y los que estan en el índice:
 git diff           	git diff --staged
 
-devolver los cambios para el ultimo commit y sacar del índice
-git checkout -- document.txt        git reset head document.txt
+muestra los cambios:
+git show 5375037 --> esto equivale al numeral que saca al sacar el git log --online
 
-despues
+
+
+NOTA: es importante en el commit la primera palabra que comienze por un verbo
