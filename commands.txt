@@ -5,5 +5,13 @@ git log -p
 ver el archivo de texto: 
 cat document.txt
 
+para sacarlo del proximo commit:
+git reset head document.txt
 
+muestra cambios que no estan en el índice y los que estan en el índice:
+git diff           	git diff --staged
 
+devolver los cambios para el ultimo commit y sacar del índice
+git checkout -- document.txt        git reset head document.txt
+
+despues
