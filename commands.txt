@@ -24,3 +24,4 @@ BRANCHS
 git branch
 git branch -b first_rama
 git branch -m second_rama
+git checkout master
