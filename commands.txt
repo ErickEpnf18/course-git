@@ -22,9 +22,12 @@ NOTA: es importante en el commit la primera palabra que comienze por un verbo
 
 BRANCHS
 git branch
-git branch -b first_rama
-git branch -m second_rama
+git branch rama --> crea rama
+git checkout -b seconc_rama --> salta rama y crea
+git checkout -m nameBranch --> change name of branch
+git checkout -d nameBranch --> eliminar commits pendientes
 git checkout master
 ubicar que la rama master apunte a otro commit pero cuando esta dividida la rama se crea
 un editor de codigo para explicar porque la union de dichas ramas:
 git merge second_rama 
+git branch -d second_rama --> delete branch
