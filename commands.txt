@@ -33,6 +33,7 @@ git merge second_rama
 git branch -d second_rama --> delete branch
 
 CONFLICTS BRANCHS
-añadido por rama4
 un cambio desde master
+ahora se añadio en rama4
+añadido por rama4
 
