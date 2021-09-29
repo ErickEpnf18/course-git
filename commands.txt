@@ -2,7 +2,7 @@ USER AND PASSWORD
 git config --global user.name ErickEpnf18
 git config --global user.email aguilakrakatoa@gmail.com
 permite ver el historial de commits de projects:
-git log -p ==> git log --oneline
+git log -p ==> git log --oneline == git log --oneline --graph
 ver el archivo de texto: 
 cat document.txt
 
@@ -25,3 +25,5 @@ git branch
 git branch -b first_rama
 git branch -m second_rama
 git checkout master
+ubicar que la rama master apunte a otro commit:
+git merge second_rama
