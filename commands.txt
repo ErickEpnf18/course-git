@@ -31,3 +31,7 @@ ubicar que la rama master apunte a otro commit pero cuando esta dividida la rama
 un editor de codigo para explicar porque la union de dichas ramas:
 git merge second_rama 
 git branch -d second_rama --> delete branch
+
+CONFLICTS BRANCHS
+conflicts
+
