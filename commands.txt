@@ -25,5 +25,6 @@ git branch
 git branch -b first_rama
 git branch -m second_rama
 git checkout master
-ubicar que la rama master apunte a otro commit:
-git merge second_rama
+ubicar que la rama master apunte a otro commit pero cuando esta dividida la rama se crea
+un editor de codigo para explicar porque la union de dichas ramas:
+git merge second_rama 
