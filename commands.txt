@@ -1,3 +1,4 @@
+USER AND PASSWORD
 git config --global user.name ErickEpnf18
 git config --global user.email aguilakrakatoa@gmail.com
 permite ver el historial de commits de projects:
@@ -14,9 +15,12 @@ git checkout -- document.txt
 muestra cambios que no estan en el índice y los que estan en el índice:
 git diff           	git diff --staged
 
-muestra los cambios:
+muestra la info del commit:
 git show 5375037 --> esto equivale al numeral que saca al sacar el git log --online
 
-
-
 NOTA: es importante en el commit la primera palabra que comienze por un verbo
+
+BRANCHS
+git branch
+git branch -b first_rama
+git branch -m second_rama
