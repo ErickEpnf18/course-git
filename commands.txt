@@ -57,3 +57,4 @@ gitlab acess token = fbLb_hq5exSYR7dQvEDj
 rm -rf nameofcarpet --> borrar 
 git fetch origin --> trayendo algun dato actualizado en el repositorio en la nube
 git pull -->actualizar cambios desde el repositorio en la nube
+git commit --amend --> para reescribir el commit
