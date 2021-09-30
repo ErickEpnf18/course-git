@@ -58,7 +58,11 @@ rm -rf nameofcarpet --> borrar
 git fetch origin --> trayendo algun dato actualizado en el repositorio en la nube
 git pull -->actualizar cambios desde el repositorio en la nube
 git commit --amend --> para reescribir el commit
+<<<<<<< HEAD
 git push --force o git push -f --> fuerza del local hasta el de la nube a que reescriba el commit o la historia 
+=======
+git push -force o git push -f --> fuerza del local hasta el de la nube a que reescriba el commit o la historia 
+>>>>>>> e4f55f2 (update everything commits in branch-secondary)
 no hacerlo cuando hay bastantes varias personas realizando el proyecto hacerlo en una rama personal (no en la master)
 
 REWRITE THE HISTORY
