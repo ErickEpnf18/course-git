@@ -51,5 +51,7 @@ git remote add nameremote "url"
 git remote --v --> urls
 git push -u nameremote master(any branch) --> -u ayuda a que la proxima vez solo se ponga git push nadamas
 
+bitbucket password token app = 4ZMbEKT9BTWLV7QNMyZr
+gitlab acess token = fbLb_hq5exSYR7dQvEDj
 hola mundo!
 
