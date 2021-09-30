@@ -4,7 +4,7 @@ This is my first parragraph with markdown
 
 - Determination
 - Dedication
-- Focus
-- Initiative
+- :small_airplane: Focus
+- :horse: Initiative
 
 ### courage
