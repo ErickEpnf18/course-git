@@ -58,3 +58,24 @@ rm -rf nameofcarpet --> borrar
 git fetch origin --> trayendo algun dato actualizado en el repositorio en la nube
 git pull -->actualizar cambios desde el repositorio en la nube
 git commit --amend --> para reescribir el commit
+git push -force o git push -f --> fuerza del local hasta el de la nube a que reescriba el commit o la historia 
+no hacerlo cuando hay bastantes varias personas realizando el proyecto hacerlo en una rama personal (no en la master)
+
+REWRITE THE HISTORY
+git commit --amend --no-edit --> para no reescribir el utlimo commit, ver que cambios habido 
+también cambia el hash del commit al hacer algún cambio
+git config --global core.editor "code --wait" --> configurar el editor de texto
+git reset --hard HEAD^^^ --> DESCARTAR los ultimo commits el #de^ indica a descartar o ~#
+git reset --hard HEAD~5 
+git reflot --> espacio temporal donde los commits se quedaron huerfanos al no referenciarlos
+git reset --hard HEAD@{2} --> RECUPERAR en el espacio temporal vale copiar el huerfano y devolverlo al historial
+git rebase -i HEAD~2 --> unir commits esto abre una ventana y abra:
+squash - fusionar commit con el anterior / r - editar commit / pick - usar commit 
+git fetch origin  y git reset --hard origin/master --> para actualizar la rama master en el local
+
+ETIQUETAS
+git tag v1.0.0.0  --> etiqueta ligera
+git tag -a v2.0.0.0 -m 'SuperVersion 2.0.0.0' --> etiqueta anotada (mejor porque te brinda hasta la fecha cuando se creo y el mensaje)
+git push origin --tags --> subir todas las etiquetas o se puedes subir individual tag
+git tag -d v1.0.0.0 --> delete tag local
+git push --delete origin v1.0.0.0 --> delete remote
