@@ -33,7 +33,13 @@ git merge second_rama
 git branch -d second_rama --> delete branch
 
 CONFLICTS BRANCHS
-un cambio desde master
-ahora se añadio en rama4
-añadido por rama4
+git rebase master --> desde la segunda rama para integrar en master
+git rebase --continue --> continuar con el merge
+git checkout ramaAintegrar --> luego un paso mas integrar en master como paso mas para hacer un
+fast-forward(que no va hacer otro commit adicional en el merge) 
+Todo esto sirve para no tener en el historial tanta integración de "Merge brach "nameRama""
 
+GIT IGNORE
+al crear .gitignore rechaza todo lo demas y se enfoca en este pero al poner dentro de su texto 
+como "/development.log" este solo le ignora pero no a los demás.
+*.log --> ignora todos lo archivos que terminen en .algo
