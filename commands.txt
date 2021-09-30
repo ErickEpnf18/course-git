@@ -53,5 +53,7 @@ git push -u nameremote master(any branch) --> -u ayuda a que la proxima vez solo
 
 bitbucket password token app = 4ZMbEKT9BTWLV7QNMyZr
 gitlab acess token = fbLb_hq5exSYR7dQvEDj
-hola mundo!
 
+rm -rf nameofcarpet --> borrar 
+git fetch origin --> trayendo algun dato actualizado en el repositorio en la nube
+git pull -->actualizar cambios desde el repositorio en la nube
