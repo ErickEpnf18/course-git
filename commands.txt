@@ -140,3 +140,4 @@ antes de hacer algo
 git fetch origin
 git rebase origin/master --> aqui se crea conflicto -- leer con mucho detenimiento solucionar manual
 git add . git rebase --continue --> listo git push -u origin sub-header
+OJO CUANDO TE PIDE -D CUANDO ELIMINES UNA RAMA ES PORQUE ALGO GUARDASTE EN ESA RAMA Y TIENES QUE GUARDARLA
