@@ -71,9 +71,10 @@ git reset --hard HEAD^^^ --> DESCARTAR los ultimo commits el #de^ indica a desca
 git reset --hard HEAD~5 
 git reflog --> espacio temporal donde los commits se quedaron huerfanos al no referenciarlos
 git reset --hard HEAD@{2} --> RECUPERAR en el espacio temporal vale copiar el huerfano y devolverlo al historial
-
+REBASAR EL COMMIT
 git rebase -i HEAD~2 --> unir commits esto abre una ventana y abra:
 squash - fusionar commit con el anterior / r - editar commit / pick - usar commit 
+IMPORTANTE PARA ACTUALIZAR EN EL LOCAL
 git fetch origin  y git reset --hard origin/master --> para actualizar la rama master en el local
 
 ETIQUETAS
@@ -97,5 +98,20 @@ resolved
 
 
 				AVANZED
+git fetc origin 
+git merge origin/master
+git branch -a
+cat .git/refs/remote/origin/master
+cat .git/refs/heads/master
+Actulizamos nuestra rama remota es:
+git merge origin/master --> luego de fetch para traer los cambios de repo en la nube y fusionarlos en el local
+git push --delete origin test-branch-1
+
+git push -u origin master == git branch --set-upstream-to=origin/master master
+segun entendi cuando hacer una extraccion de la rama en la nube cuando 
+quieres traerlo solo hacer git fetch... y luego hacer git checkout "esa rama en la nube por
+ejemplo my-rama" ya lo reconoce entonces para los cambios solo pon git pull nada mas
+
+
 
 
