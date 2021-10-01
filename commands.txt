@@ -123,3 +123,20 @@ reword - reescribe
 git rebase --abort
 *Cuando apuntas git checkout HEAD@{#algo} apunta al commit y no a la rama por lo que 
 suele suceder que sale detached por que no existe esa rama
+
+
+por lo general abres otra rama los pasos son los siguietes:
+git fetch origin
+git rebase origin/master
+todo bien 
+git push -u origin add-list
+se crea un pull-request
+pero cuando se integran otra persona en el cloud se crea conflictos
+
+hacemos git checkout -b sub-header
+git add .. git commiit.... lleguemos luego de algo y nos damos cuenta que alguien agrego algo por lo que 
+			se tiene que revisar ese texto manual solamente en el editor de texto
+antes de hacer algo
+git fetch origin
+git rebase origin/master --> aqui se crea conflicto -- leer con mucho detenimiento solucionar manual
+git add . git rebase --continue --> listo git push -u origin sub-header
