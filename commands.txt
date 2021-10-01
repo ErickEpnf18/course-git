@@ -112,6 +112,7 @@ segun entendi cuando hacer una extraccion de la rama en la nube cuando
 quieres traerlo solo hacer git fetch... y luego hacer git checkout "esa rama en la nube por
 ejemplo my-rama" ya lo reconoce entonces para los cambios solo pon git pull nada mas
 
+----------
+git pull or git reset --hard origin/master --> lo use cuando master estaba por detras de un commit de origin/master
 
-
-
+git reset (#commit) | (HEAD~#) | (HEAD#^)
