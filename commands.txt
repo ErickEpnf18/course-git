@@ -116,3 +116,10 @@ ejemplo my-rama" ya lo reconoce entonces para los cambios solo pon git pull nada
 git pull or git reset --hard origin/master --> lo use cuando master estaba por detras de un commit de origin/master
 
 git reset (#commit) | (HEAD~#) | (HEAD#^)
+*cuando tu master esta por encima del origin/master puedes ejecutar: git rebase -i HEAD~2 luego modificar
+entonces escoge la base que no se modifica pero puedes ver los 2 commits para hacer cambios:
+squash - mezcla ese commit con el anterior
+reword - reescribe
+git rebase --abort
+*Cuando apuntas git checkout HEAD@{#algo} apunta al commit y no a la rama por lo que 
+suele suceder que sale detached por que no existe esa rama
