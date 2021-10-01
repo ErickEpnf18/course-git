@@ -69,7 +69,7 @@ también cambia el hash del commit al hacer algún cambio
 git config --global core.editor "code --wait" --> configurar el editor de texto
 git reset --hard HEAD^^^ --> DESCARTAR los ultimo commits el #de^ indica a descartar o ~#
 git reset --hard HEAD~5 
-git reflot --> espacio temporal donde los commits se quedaron huerfanos al no referenciarlos
+git reflog --> espacio temporal donde los commits se quedaron huerfanos al no referenciarlos
 git reset --hard HEAD@{2} --> RECUPERAR en el espacio temporal vale copiar el huerfano y devolverlo al historial
 
 git rebase -i HEAD~2 --> unir commits esto abre una ventana y abra:
