@@ -107,6 +107,5 @@ Actulizamos nuestra rama remota es:
 git merge origin/master --> luego de fetch para traer los cambios de repo en la nube y fusionarlos en el local
 git push --delete origin test-branch-1
 
-
-
+:horse:
 
