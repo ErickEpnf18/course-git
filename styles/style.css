@@ -34,7 +34,17 @@
   color: white;
 }
 .box-h:hover {
-  background: teal !important;
+  background: #faf420 !important;
+  transition: all 0.7s;
+  color: black;
+}
+.box-i:hover {
+  background: #1b183c !important;
+  transition: all 0.7s;
+  color: white;
+}
+.box-j:hover {
+  background: #312f16 !important;
   transition: all 0.7s;
   color: white;
 }
