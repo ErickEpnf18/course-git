@@ -1,0 +1,40 @@
+.box-a:hover {
+  background: blue !important;
+  transition: all 0.7s;
+  color: white;
+}
+.box-b:hover {
+  background: teal !important;
+  transition: all 0.7s;
+  color: white;
+}
+.box-c:hover {
+  background: #ecb81f !important;
+  transition: all 0.7s;
+  color: white;
+}
+.box-d:hover {
+  background: #1d8cf0 !important;
+  transition: all 0.7s;
+  color: white;
+}
+.box-e:hover {
+  background: #590f96 !important;
+  transition: all 0.7s;
+  color: white;
+}
+.box-f:hover {
+  background: #faa4e0 !important;
+  transition: all 0.7s;
+  color: white;
+}
+.box-g:hover {
+  background: #525e57 !important;
+  transition: all 0.7s;
+  color: white;
+}
+.box-h:hover {
+  background: teal !important;
+  transition: all 0.7s;
+  color: white;
+}
