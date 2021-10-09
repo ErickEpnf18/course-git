@@ -10,5 +10,6 @@ This is my first parragraph with markdown
 - :mechanical_arm: Purpose
 
 ### courage
-![Spartan](./img/spartan-flecha.jpg 'Vencer') ![Spartan Cloud](./img/4.jpg 'Persistence')
 
+![Spartan](./img/spartan-flecha.jpg 'Vencer')
+![Spartan Cloud](./img/4.jpg 'Persistence')
