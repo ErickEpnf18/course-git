@@ -12,4 +12,7 @@ This is my first parragraph with markdown
 ### courage
 
 ![Spartan](./img/spartan-flecha.jpg 'Vencer')
+![Spartan](./img/spartan-flecha.jpg 'Vencer')
+
+![Spartan Cloud](./img/4.jpg 'Persistence')
 ![Spartan Cloud](./img/4.jpg 'Persistence')
